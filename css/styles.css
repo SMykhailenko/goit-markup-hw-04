@@ -52,7 +52,12 @@
 .hero {
   text-align: center;
   padding: 188px 0;
-  background: #2e2f42;
+  /* background: #2e2f42; */
+  background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/Hero-logo.jpg);
+  background-size: 1440px 600px;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 .hero-text {
   margin-bottom: 48px;
@@ -97,6 +102,23 @@ button:hover,
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* futures icons */
+
+.futures {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.futures-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+}
+
 /**
   |============================
   | Section 3
@@ -126,6 +148,20 @@ button:hover,
 .photo-back {
   background-color: #ffffff;
 }
+
+/* team social icons */
+.team-social {
+  display: flex;
+  justify-items: center;
+  gap: 24px;
+}
+
+.team-link {
+  width: 40px;
+  height: 40px;
+  background-color: ##f4f4fd;
+}
+.
 /**
   |============================
   | Partfolio page
@@ -336,7 +372,9 @@ img {
 }
 .title-center {
   text-align: center;
+  margin-bottom: 8px;
 }
+
 /**
   |============================
   | Footer section
