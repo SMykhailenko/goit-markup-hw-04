@@ -179,7 +179,10 @@ button:hover,
   width: 40px;
   height: 40px;
 }
-.
+.team-item:hover,
+team-item:focus {
+  background-color: #404bbf;
+}
 /**
   |============================
   | Partfolio page
