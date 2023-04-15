@@ -165,6 +165,10 @@ button:hover,
   border-radius: 50%;
 }
 
+.team-item-symbol {
+  color: #f4f4fd;
+}
+
 .team-icon {
   fill: currentColor;
 }
@@ -174,7 +178,6 @@ button:hover,
   align-items: center;
   width: 40px;
   height: 40px;
-  color: #f4f4fd;
 }
 .
 /**
