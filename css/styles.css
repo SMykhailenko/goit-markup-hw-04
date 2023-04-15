@@ -185,6 +185,56 @@ team-item:focus {
 }
 /**
   |============================
+  | Section 5
+  |============================
+*/
+.customer-section {
+  margin-bottom: 120px;
+}
+.cs-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.cs-frames {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+.cs-link {
+  fill: #8e8f99;
+}
+.cs-link:hover,
+.cs-link:focus {
+  fill: #404bbf;
+  border-color: 1px solid #404bbf;
+}
+.cs-frames:hover,
+.cs-frames:focus {
+  border-color: #404bbf;
+}
+
+/**
+  |============================
+  | footer with media icons
+  |============================
+*/
+.footer-media {
+  padding-right: 120px;
+}
+.foot {
+  display: flex;
+  align-items: center;
+}
+.footer-icons {
+  width: 200px;
+}
+/**
+  |============================
   | Partfolio page
   |============================
 */
@@ -367,6 +417,7 @@ img {
 }
 .focus {
   width: 264px;
+  background-color: #ffffff;
 }
 
 /**
@@ -388,6 +439,8 @@ img {
   justify-content: center;
   align-items: center;
   padding: 32px 16px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   border-top: none;
 }
@@ -457,11 +510,7 @@ img {
 .pictures-list {
   width: calc((100% - 48px) / 3);
 }
-/* .container.foot {
-  display: flex;
-  align-items: start;
-  flex-direction: column;
-} */
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
