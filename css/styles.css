@@ -170,6 +170,9 @@ button:hover,
 
 .team-icon {
   fill: currentColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .team-social.team-link {
   display: flex;
@@ -239,7 +242,6 @@ team-item:focus {
 }
 .foot {
   display: flex;
-  align-items: center;
 }
 .footer-icons {
   width: 208px;
@@ -469,6 +471,9 @@ img {
 
 .footer-line {
   padding: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .foot-text {
