@@ -52,7 +52,6 @@
 .hero {
   text-align: center;
   padding: 188px 0;
-  /* background: #2e2f42; */
   background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/Hero-logo.jpg);
   background-size: 1440px 600px;
@@ -202,11 +201,11 @@ team-item:focus {
   align-items: center;
   width: 168px;
   height: 88px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
 }
 .cs-link {
   fill: #8e8f99;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
 }
 .cs-link:hover,
 .cs-link:focus {
@@ -223,15 +222,24 @@ team-item:focus {
   | footer with media icons
   |============================
 */
+.foot-social {
+  display: flex;
+  justify-items: center;
+  gap: 16px;
+}
 .footer-media {
   padding-right: 120px;
+}
+.social-media {
+  padding-bottom: 16px;
 }
 .foot {
   display: flex;
   align-items: center;
 }
 .footer-icons {
-  width: 200px;
+  width: 208px;
+  height: 80px;
 }
 /**
   |============================
