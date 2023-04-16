@@ -227,6 +227,10 @@ team-item:focus {
   justify-items: center;
   gap: 16px;
 }
+.foot-hf:hover,
+.foot-hf.team-item-symbol:focus {
+  background-color: #31d0aa;
+}
 .footer-media {
   padding-right: 120px;
 }
