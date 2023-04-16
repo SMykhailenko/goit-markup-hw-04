@@ -157,14 +157,16 @@ button:hover,
 .team-item {
   width: 40px;
   height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #4d5ae5;
   border-radius: 50%;
+  background-color: #4d5ae5;
 }
 
 .team-item-symbol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
   color: #f4f4fd;
 }
 
@@ -175,14 +177,10 @@ button:hover,
   align-items: center;
 }
 .team-social.team-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
 }
-.team-item:hover,
-team-item:focus {
+.team-item-symbol:hover,
+.team-item-symbol:focus {
+  border-radius: 50%;
   background-color: #404bbf;
 }
 /**
@@ -198,14 +196,12 @@ team-item:focus {
   justify-content: center;
   gap: 24px;
 }
-.cs-frames {
+.cs-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 168px;
-  height: 88px;
-}
-.cs-link {
+  width: 100%;
+  height: 100%;
   fill: #8e8f99;
   border: 1px solid #8e8f99;
   border-radius: 4px;
@@ -213,10 +209,6 @@ team-item:focus {
 .cs-link:hover,
 .cs-link:focus {
   fill: #404bbf;
-  border-color: #404bbf;
-}
-.cs-frames:hover,
-.cs-frames:focus {
   border-color: #404bbf;
 }
 
@@ -230,8 +222,9 @@ team-item:focus {
   justify-items: center;
   gap: 16px;
 }
-.foot-hf:hover,
-.foot-hf.team-item-symbol:focus {
+.foot-social-hf:hover,
+.foot-social-hf:focus {
+  border-radius: 50%;
   background-color: #31d0aa;
 }
 .footer-media {
@@ -581,15 +574,16 @@ img {
 
 .radio-btn:hover,
 .radio-btn:focus {
+  border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   color: #ffffff;
   background: #404bbf;
 }
-.btn-color:hover,
-.btn-color:focus {
-  border: 1px solid transparent;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+.card-hf {
+  display: flex;
+  flex-wrap: wrap;
 }
-
 .card-hf:hover,
 .card-hf:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
