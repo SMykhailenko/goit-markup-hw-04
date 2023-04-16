@@ -109,15 +109,13 @@ button:hover,
 .futures {
   display: flex;
   justify-content: center;
-  gap: 24px;
 }
 .skill-logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
-  width: auto;
   height: 112px;
+  width: 264px;
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
@@ -256,6 +254,7 @@ button:hover,
 .foot {
   display: flex;
   align-items: baseline;
+  margin-right: 120px;
 }
 .footer-icons {
   width: 208px;
