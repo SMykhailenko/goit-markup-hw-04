@@ -210,7 +210,7 @@ team-item:focus {
 .cs-link:hover,
 .cs-link:focus {
   fill: #404bbf;
-  border-color: 1px solid #404bbf;
+  border-color: #404bbf;
 }
 .cs-frames:hover,
 .cs-frames:focus {
@@ -582,4 +582,11 @@ img {
 .btn-color:hover,
 .btn-color:focus {
   border: 1px solid transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.card-hf:hover,
+.card-hf:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
