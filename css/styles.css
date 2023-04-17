@@ -247,11 +247,7 @@ button:hover,
   color: #ffffff;
   margin-bottom: 16px;
 }
-.foot {
-  display: flex;
-  align-items: baseline;
-  margin-right: 120px;
-}
+
 .footer-icons {
   width: 208px;
   height: 80px;
@@ -342,6 +338,12 @@ img {
   outline: 2px solid red;
   outline-offset: -2px;
 }
+.foot {
+  display: flex;
+  align-items: baseline;
+  gap: 120px;
+}
+
 /**
   |============================
   | START index.html
